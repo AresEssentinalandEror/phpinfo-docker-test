@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = 'docker-hub-credentials'
-        IMAGE_NAME = "AresEssentinalandEror/phpinfo-test"
+        IMAGE_NAME = "aresessentinal/phpinfo-test"
     }
 
     stages {
